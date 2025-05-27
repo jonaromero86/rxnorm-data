@@ -28,12 +28,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RxnormIdentifierSemanticIT extends AbstractIntegrationTest {
 
     /**
-     * Test RxnormIdentifer Semantics.
+     * Test RxnormIdentifier Semantics.
      *
-     * @result Reads content from file and validates Identifier Semantics by calling private method assertConcept().
+     * @result Reads content from file and validates Identifier Semantics by calling private method assertOwlElement().
      */
     @Test
-    @Disabled // TODO
+//    @Disabled // TODO
     public void testRxnormIdentifierSemantics() throws IOException {
         String errorFile = "target/failsafe-reports/Rxnorm_Identifier_not_found.txt";
         String absolutePath = rxnormOwlFileName; 
